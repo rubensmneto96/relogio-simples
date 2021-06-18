@@ -25,7 +25,7 @@ function carregar(){
     }
 
     if (hora < 10) {
-        hora = `0${horas}`;
+        hora = `0${hora}`;
     }
     if (minuto < 10) {
         minuto = `0${minuto}`;
